@@ -1,0 +1,31 @@
+---
+layout:     post
+title:      "Wirte Someting"
+subtitle:   " \"Hello World, Hello Blog\""
+date:       2018-11-01 12:00:02
+author:     "ZX"
+header-img: "img/post-bg-2015.jpg"
+tags:
+    - 闲暇时间
+---
+
+> 基于HUX模板的微博
+测试功能
+
+### code:
+```
+hadoop jar ~/hadoop-2.8.5/share/hadoop/tools/lib/hadoop-streaming-2.8.5.jar \
+-files map_sougou.py,reduce_sougu.py \
+-input /test/sogou.500w.utf8 -output /sougu2 \
+-mapper map_sougou.py -reducer reduce_sougu.py
+```
+
+1. a
+2. b
+3. c
+
+* **zx**
+* sdak
+
+先睡觉啦
+
